@@ -166,12 +166,12 @@ footer h3{
     text-align: left;
     word-break: break-all;
 }
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .container-1{
     margin: 10px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 600px) {
  #bordea{
     width: 600px;
     height: 300px;
