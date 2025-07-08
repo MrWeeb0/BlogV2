@@ -1,0 +1,189 @@
+header{
+    text-align: left;
+    font-family: Impact;
+    font-size: 25px;
+    padding: 0 40px;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-content a {
+    margin-left: auto;
+    font-size: 28px; 
+    color: rgb(116, 116, 116);
+}
+#logo{
+    width: 75px;
+    height: 75px;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 3px solid;
+    border-radius: 5px;
+    color: rgb(88, 88, 88);
+}
+main{
+    text-align: center;
+    font-size: 25px;
+    padding: 0 40px;
+}
+.hero h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    position: sticky;
+}
+.hero h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    color: rgb(130, 130, 130);
+}
+.container h2{
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+}
+#first{
+    padding: 15px;
+    background-color: rgb(158, 240, 252);
+    background-image: linear-gradient(to bottom right, rgb(158, 240, 252), rgb(0, 183, 255));
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 2px solid rgb(114, 130, 251);
+    border-top: 2px solid rgb(114, 130, 251);
+    border-radius: 25px;
+}
+#second{
+    padding: 15px;
+    background-color: rgb(158, 240, 252);
+    background-image: linear-gradient(to bottom right, rgb(158, 240, 252), rgb(0, 183, 255));
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 2px solid rgb(114, 130, 251);
+    border-top: 2px solid rgb(114, 130, 251);
+    border-radius: 25px;
+}
+#text1 {
+    text-align: left;
+    word-break: break-all;
+}
+#text2 {
+    text-align: left;
+    word-break: break-all;
+}
+#text1 p{
+    color: rgb(61, 61, 61);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#text2 p{
+    color: rgb(61, 61, 61);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#first a{
+    text-decoration: none;
+    color: rgb(27, 89, 89);
+    font-weight: bold;
+}
+#second a{
+    text-decoration: none;
+    color: rgb(27, 89, 89);
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: rgb(243, 243, 243);
+    align-items: center;
+    justify-content:center;
+    gap: 50px;
+}
+footer a{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(255, 128, 0);
+    font-weight: bold;
+    gap: 10px;
+}
+footer h3{
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*Page 1*/
+#bordea{
+    width: 1800px;
+    height: 500px;
+}
+
+.hero-1{
+  position: relative;
+  text-align: center;
+  color: white;
+} 
+.centre{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  background-color: rgb(208, 208, 208);
+  opacity: 0.85;
+  font-weight: bold;
+  color: black;
+}
+.container-1{
+    border: 2px solid #000;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    background-color: #efefef;
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    align-items: flex-start;
+    text-align: left;
+    word-break: break-all;
+}
+@media (max-width: 800px) {
+  .container-1{
+    margin: 10px;
+  }
+}
+@media (max-width: 800px) {
+ #bordea{
+    width: 600px;
+    height: 300px;
+ }
+ .centre{
+    font-size: 15px;
+    padding: 5px;
+    width: 400px;
+ }
+
+
+
+
+
+}
