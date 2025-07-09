@@ -176,12 +176,10 @@ footer h3{
     text-align: left;
     word-break: break-all;
 }
-@media (max-width: 800px) {
-  .container-1{
+@media (max-width: 768px) {
+    .container-1{
     margin: 5px;
   }
-}
-@media (max-width: 800px) {
  #bordea{
     width: 10px;
     height: 10px;
@@ -225,5 +223,20 @@ footer h3{
     padding: 5px;
     width: 700px;
     margin-left: 130px;
+ }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .container-1{
+  margin: 5px;
+  }
+  #bordea{
+    width: 600px;
+    height: 200px;
+ }
+ .title1{
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 400px;
  }
 }
