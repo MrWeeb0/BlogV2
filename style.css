@@ -176,7 +176,7 @@ footer h3{
     text-align: left;
     word-break: break-all;
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .container-1{
     margin: 5px;
   }
