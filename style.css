@@ -57,6 +57,13 @@ main{
     align-items: center;
   }
 }
+@media (max-width: 500px) {
+  .flex-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+}
 #first{
     padding: 15px;
     background-color: rgb(158, 240, 252);
@@ -166,6 +173,8 @@ footer h3{
     flex-direction: column;
     align-items: center;   
     justify-content: center;
+    text-align: center;
+    margin: 0 auto 20px auto;
 }
 
 .container-1{
