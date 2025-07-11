@@ -192,9 +192,8 @@ footer h3{
     max-width: 1100px;
 }
 .post-1 blockquote {
-    background: #fffbe6;
-    border-left: 5px solid #ff9c4b;
-    border-radius: 12px;
+    background: rgb(234, 239, 239);
+    border-left: 5px solid rgb(51, 52, 70);
     margin: 16px 0;
     padding: 12px 18px;
     font-style: italic;
