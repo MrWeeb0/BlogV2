@@ -261,7 +261,7 @@ footer h3{
 
 @media (max-width: 500px) {
   .title1 {
-    width: 86vw;
+    width: 80vw;
     font-size: 0.9rem;
     max-width: 94vw;
     margin: 0 auto 8px auto;
